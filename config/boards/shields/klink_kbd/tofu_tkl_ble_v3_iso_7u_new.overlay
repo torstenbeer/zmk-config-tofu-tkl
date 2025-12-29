@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 #include "common.overlay"
+#include "tofu_tkl_ble_v3_iso.keymap"
 
 #define _RC(x, y)
 #define N(x) (89-x)
