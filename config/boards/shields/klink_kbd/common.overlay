@@ -249,23 +249,23 @@ RC(10,0) RC(10,1) RC(10,2)         RC(10,3)         RC(10,4) RC(10,5) RC(10,6)  
 #define ROW3_ISO      <&key_physical_attrs 125 100    0  450       0     0     0> \
                     , <&key_physical_attrs 100 100  125  450       0     0     0> \
 
-#define ROW3_FIXED    <&key_physical_attrs 100 100  225  450       0     0     0> \
-                    , <&key_physical_attrs 100 100  325  450       0     0     0> \
-                    , <&key_physical_attrs 100 100  425  450       0     0     0> \
-                    , <&key_physical_attrs 100 100  525  450       0     0     0> \
-                    , <&key_physical_attrs 100 100  625  450       0     0     0> \
-                    , <&key_physical_attrs 100 100  725  450       0     0     0> \
-                    , <&key_physical_attrs 100 100  825  450       0     0     0> \
-                    , <&key_physical_attrs 100 100  925  450       0     0     0> \
-                    , <&key_physical_attrs 100 100 1025  450       0     0     0> \
-                    , <&key_physical_attrs 100 100 1125  450       0     0     0> \
+#define ROW3_FIXED    <&key_physical_attrs 100 100  200  450       0     0     0> \
+                    , <&key_physical_attrs 100 100  300  450       0     0     0> \
+                    , <&key_physical_attrs 100 100  400  450       0     0     0> \
+                    , <&key_physical_attrs 100 100  500  450       0     0     0> \
+                    , <&key_physical_attrs 100 100  600  450       0     0     0> \
+                    , <&key_physical_attrs 100 100  700  450       0     0     0> \
+                    , <&key_physical_attrs 100 100  800  450       0     0     0> \
+                    , <&key_physical_attrs 100 100  900  450       0     0     0> \
+                    , <&key_physical_attrs 100 100 1000  450       0     0     0> \
+                    , <&key_physical_attrs 100 100 1100  450       0     0     0> \
 
-#define ROW3_RSFT_275U    <&key_physical_attrs 275 100 1225  450       0     0     0> \
+#define ROW3_RSFT_275U    <&key_physical_attrs 300 100 1400  450       0     0     0> \
 
 #define ROW3_RSFT_175U    <&key_physical_attrs 175 100 1225  450       0     0     0> \
                         , <&key_physical_attrs 100 100 1400  450       0     0     0> \
 
-#define ROW3_RSFT_225U    <&key_physical_attrs 225 100    0  450       0     0     0> \
+#define ROW3_RSFT_225U    <&key_physical_attrs 200 100    0  450       0     0     0> \
 
 #define ROW3_FIXED2   <&key_physical_attrs 100 100 1625  450       0     0     0> \
 
