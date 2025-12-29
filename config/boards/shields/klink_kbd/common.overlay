@@ -260,12 +260,12 @@ RC(10,0) RC(10,1) RC(10,2)         RC(10,3)         RC(10,4) RC(10,5) RC(10,6)  
                     , <&key_physical_attrs 100 100 1000  450       0     0     0> \
                     , <&key_physical_attrs 100 100 1100  450       0     0     0> \
 
-#define ROW3_RSFT_275U    <&key_physical_attrs 300 100 1400  450       0     0     0> \
+#define ROW3_RSFT_275U    <&key_physical_attrs 275 100 1300  450       0     0     0> \
 
 #define ROW3_RSFT_175U    <&key_physical_attrs 175 100 1225  450       0     0     0> \
                         , <&key_physical_attrs 100 100 1400  450       0     0     0> \
 
-#define ROW3_RSFT_225U    <&key_physical_attrs 200 100    0  450       0     0     0> \
+#define ROW3_RSFT_225U    <&key_physical_attrs 225 100    0  450       0     0     0> \
 
 #define ROW3_FIXED2   <&key_physical_attrs 100 100 1625  450       0     0     0> \
 
