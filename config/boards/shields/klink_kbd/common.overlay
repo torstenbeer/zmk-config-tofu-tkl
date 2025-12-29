@@ -309,7 +309,7 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
         keys =    ROWF0_FIXED , ROW0_BS_1U
                 , ROW1_FIXED , ROW1_ANSI
                 , ROW2_FIXED , ROW2_ANSI //Enter
-                , ROW3_RSFT_275U   , ROW3_FIXED , ROW3_RSFT_175U, ROW3_FIXED2
+                , ROW3_RSFT_225U  , ROW3_FIXED , ROW3_RSFT_275U, ROW3_FIXED2
                 , SPC_625U, ROW4_FIXED;
     };
 };
