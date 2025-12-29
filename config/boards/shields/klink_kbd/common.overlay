@@ -168,7 +168,7 @@ RC(10,0) RC(10,1) RC(10,2)         RC(10,3)         RC(10,4) RC(10,5) RC(10,6)  
 //Multi Layouts Defines
                     //                     w   h    x    y     rot    rx    ry
 #define ROWF0_FIXED    <&key_physical_attrs 100 100    0    0       0     0     0> \
-                    , <&key_physical_attrs 100 100  200    0       0     0     0> \
+                    , <&key_physical_attrs 100 100  100    0       0     0     0> \
                     , <&key_physical_attrs 100 100  300    0       0     0     0> \
                     , <&key_physical_attrs 100 100  400    0       0     0     0> \
                     , <&key_physical_attrs 100 100  500    0       0     0     0> \
