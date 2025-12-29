@@ -238,6 +238,7 @@ RC(10,0) RC(10,1) RC(10,2)         RC(10,3)         RC(10,4) RC(10,5) RC(10,6)  
                     , <&key_physical_attrs 100 100  975  350       0     0     0> \
                     , <&key_physical_attrs 100 100 1075  350       0     0     0> \
                     , <&key_physical_attrs 100 100 1175  350       0     0     0> \
+                    , <&key_physical_attrs 100 100 1275  350       0     0     0> \
 
 #define ROW2_ANSI     <&key_physical_attrs 225 100 1275  350       0     0     0> \
 
