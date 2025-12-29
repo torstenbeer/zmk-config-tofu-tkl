@@ -33,7 +33,6 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
 
     layouts_this_position_map {
         compatible = "zmk,physical-layout-position-map";
-        display-name = "Torsten_Test";
         transform = <&matrix_transform_0>;
         complete;
 
