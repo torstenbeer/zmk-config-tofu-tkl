@@ -27,7 +27,7 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
 
         keys =    ROWF0_FIXED , ROW0_BS_2U
                 , ROW1_FIXED , ROW1_ISO
-                , ROW2_FIXED , ROW2_ISO //Enter
+                , ROW2_FIXED 
                 , ROW3_RSFT_225U  , ROW3_FIXED , ROW3_RSFT_275U, ROW3_FIXED2
                 , SPC_7U, ROW4_FIXED;
     };
