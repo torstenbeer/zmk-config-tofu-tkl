@@ -1,4 +1,5 @@
 #include "common.keymap"
+#include "locale/keys_de.h"
 
 #define UF_RESET bootloader_reset 0 0
 #define UF_BT1 device_bt1 0 0
@@ -11,13 +12,13 @@
         
         default_layer {
 
-            bindings = <
-    &kp ESC           &kp F1 &kp F2 &kp F3 &kp F4     &kp F5 &kp F6 &kp F7 &kp F8     &kp F9 &kp F10 &kp F11 &kp F12             &kp PSCRN &kp SLCK &kp PAUSE_BREAK
-    &kp GRAVE  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSLH &kp BSPC       &kp INS   &kp HOME &kp PG_UP
-    &kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Z  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp RET                 &kp DEL   &kp END  &kp PG_DN
-    &kp CLCK    &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT      
-    &kp LSHFT &kp Y  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH      &kp RSHIFT                                  &kp UP
-    &kp LCTRL &kp LGUI &kp LALT             &kp SPACE                       &kp RALT  &kp RGUI &kp RCTRL &mo 1                    &kp LEFT  &kp DOWN &kp RIGHT
+           bindings = <
+                &kp ESC     &kp F1 &kp F2 &kp F3 &kp F4     &kp F5 &kp F6 &kp F7 &kp F8     &kp F9 &kp F10 &kp F11 &kp F12                   &kp PSCRN &kp SLCK &kp PAUSE_BREAK
+                &kp DE_DEGREE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp DE_SHARP_S &kp DE_ACUTE &kp BSPC     &kp INS &kp HOME &kp PG_UP
+                &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Z &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT &kp RET &kp DEL &kp END &kp PG_DN
+                &kp CLCK &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp DE_O_UMLAUT &kp DE_A_UMLAUT &kp SQT 
+                &kp LSHFT &kp Y &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp MINUS &kp RSHIFT                                             &kp UP
+                &kp LCTRL &kp LGUI &kp LALT &kp DE_SPACE &kp RALT &kp DE_LESS_THAN &kp RCTRL                                                 &kp LEFT &kp DOWN &kp RIGHT
             >;
         };
 
@@ -25,7 +26,7 @@
             bindings = <
     &UF_RESET          &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans               &trans   &trans   &trans
     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                       &trans   &trans   &trans
-    &trans   &trans  &trans  &trans  &trans  &trans  &trans  &Device_USB  &UF_BT1  &UF_BT2  &UF_BT3  &trans  &trans &trans               &trans   &trans   &trans
+    &trans   &trans &trans &trans  &trans  &trans  &trans  &Device_USB  &UF_BT1  &UF_BT2  &UF_BT3  &trans  &trans &trans                 &trans   &trans   &trans
     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &kp C_PREV  &kp C_PP      &trans 
     &trans &trans  &trans    &trans    &trans   &trans  &trans  &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT                        &trans
     &trans  &trans   &trans                 &trans                                           &trans      &trans   &trans                 &trans  &trans  &trans
